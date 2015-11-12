@@ -9,7 +9,7 @@ For customize your animation you must use:
   - sprite-autorun : (optional) boolean for animation trigger. (default false)
   - sprite-fast : (optional) animation fast in millisecond. (default 500)
   
-  <dlv class="myDiv" sprite-img="image.png" sprite-column="6" sprite-autorun="false" sprite-fast="200" onmouseover="StartAnimSprites('myDiv')" onmouseout="StopAnimSprites('myDiv')"> </dlv>
+  div class="myDiv" sprite-img="image.png" sprite-column="6" sprite-autorun="false" sprite-fast="200" onmouseover="StartAnimSprites('myDiv')" onmouseout="StopAnimSprites('myDiv')"> </div
 
 
 
