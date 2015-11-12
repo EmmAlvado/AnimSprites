@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title></title>
+
+		<style type="text/css">
+			.myDiv{
+				display: block;
+				width: 200px;
+				height: 200px;
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="animSprite1 myDiv" sprite-img="pika.png" sprite-line="1" sprite-column="4" sprite-autorun="true" sprite-fast="200"> </div>
+		<div class="animSprite2 myDiv" sprite-img="n_zulu.png" sprite-line="1" sprite-column="6" sprite-autorun="true" sprite-fast="200"> </div>
+
+		<script type="text/javascript" src="anim_sprite.js"></script>
+		<script type="text/javascript">
+			AnimSprites("animSprite1");
+			AnimSprites("animSprite2");
+		</script>
+	</body>
+</html>
