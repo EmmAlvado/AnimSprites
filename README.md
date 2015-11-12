@@ -11,7 +11,7 @@ For customize your animation you must use:
   
   <div class="myDiv" sprite-img="image.png" sprite-column="6" sprite-autorun="false" sprite-fast="200" onmouseover="StartAnimSprites('myDiv')" onmouseout="StopAnimSprites('myDiv')"> </div>
 
-	<script type="text/javascript" src="anim_sprite.js"></script>
-	<script type="text/javascript">
-		AnimSprites("myDiv");
-	</script>
+
+
+	AnimSprites("myDiv");
+
