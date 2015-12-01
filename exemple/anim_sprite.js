@@ -49,7 +49,7 @@ function AnimSprites(animClass){
 		}		
 	}
 
-	if( myObject.getAttribute("sprite-autorun") == true){
+	if( myObject.getAttribute("sprite-autorun") == "true"){
 		myObject.autorun = true;
 	}
 
